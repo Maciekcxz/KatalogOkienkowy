@@ -64,7 +64,14 @@
 
             <Button Content="Usuń" Width="100" Margin="0,0,10,0" />
             <Button Content="Zamknij" Width="100"/>
-            
+
+            <ComboBox x:Name="ComboBoxKategoria" Grid.Row="3" Grid.Column="1" Margin="0,10,0,10" Grid.ColumnSpan="2">
+                <ComboBoxItem Content="Procesory"/>
+                <ComboBoxItem Content="Karty graficzne"/>
+                <ComboBoxItem Content="Płyty główne"/>
+                <ComboBoxItem Content="Pamięci RAM"/>
+                <ComboBoxItem Content="Dyski SSD"/>
+            </ComboBox>
         </StackPanel>
     </Grid>
 </Window>
