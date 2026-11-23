@@ -27,7 +27,8 @@
 
         <Button x:Name="ButtonOdswiez"
                 Grid.Row="0" Grid.Column="1"
-                Content="Odśwież" Width="100" />
+                Content="Odśwież"
+                Width="100" />
 
         <TextBlock Grid.Row="1" Grid.Column="0"
                    Text="Tu pojawi się lista produktów"
@@ -51,34 +52,40 @@
             </Grid.ColumnDefinitions>
 
             <TextBlock Grid.Row="0" Grid.Column="0"
-                       Text="Nazwa produktu:" Margin="0,10"/>
+                       Text="Nazwa produktu:"
+                       Margin="0,10"/>
 
             <TextBox x:Name="TextBoxNazwaProduktu"
                      Grid.Row="0" Grid.Column="1"
                      Margin="0,10"/>
 
             <TextBlock Grid.Row="1" Grid.Column="0"
-                       Text="Cena:" Margin="0,10"/>
+                       Text="Cena:"
+                       Margin="0,10"/>
 
             <TextBox x:Name="TextBoxCenaProduktu"
                      Grid.Row="1" Grid.Column="1"
                      Margin="0,10"/>
 
             <TextBlock Grid.Row="2" Grid.Column="0"
-                       Text="Kategoria:" Margin="0,10"/>
+                       Text="Kategoria:"
+                       Margin="0,10"/>
 
             <ComboBox x:Name="ComboBoxKategoria"
                       Grid.Row="2" Grid.Column="1"
                       Margin="0,10">
+
                 <ComboBoxItem Content="Procesory"/>
                 <ComboBoxItem Content="Karty graficzne"/>
                 <ComboBoxItem Content="Płyty główne"/>
                 <ComboBoxItem Content="Pamięci RAM"/>
                 <ComboBoxItem Content="Dyski SSD"/>
+
             </ComboBox>
 
             <TextBlock Grid.Row="3" Grid.Column="0"
-                       Text="Dostępny:" Margin="0,10"/>
+                       Text="Dostępny:"
+                       Margin="0,10"/>
 
             <CheckBox x:Name="CheckBoxDostepny"
                       Grid.Row="3" Grid.Column="1"
@@ -86,17 +93,18 @@
                       Margin="0,10"/>
 
             <TextBlock Grid.Row="4" Grid.Column="0"
-           Text="Ilość:" Margin="0,10"/>
+                       Text="Ilość:"
+                       Margin="0,10"/>
 
             <TextBox x:Name="TextBoxIloscProduktu"
-         Grid.Row="4" Grid.Column="1"
-         Margin="0,10"/>
+                     Grid.Row="4" Grid.Column="1"
+                     Margin="0,10"/>
 
             <Button x:Name="ButtonDodaj"
-        Grid.Row="5" Grid.Column="0"
-        Grid.ColumnSpan="2"
-        Content="Dodaj"
-        Margin="0,10"/>
+                    Grid.Row="5" Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    Content="Dodaj"
+                    Margin="0,10"/>
 
         </Grid>
 
@@ -107,7 +115,8 @@
                     Margin="0,10,0,0">
 
             <TextBlock Text="Produktów: "
-                       FontSize="14" FontWeight="Bold" />
+                       FontSize="14"
+                       FontWeight="Bold" />
 
             <TextBlock x:Name="EtykietaLiczby"
                        Text="0"
@@ -115,7 +124,8 @@
                        Margin="0,0,10,0"/>
 
             <TextBlock Text="Łączna wartość: "
-                       FontSize="14" FontWeight="Bold" />
+                       FontSize="14"
+                       FontWeight="Bold" />
 
             <TextBlock x:Name="EtykietaMagazynu"
                        Text="0"
@@ -123,11 +133,13 @@
                        Margin="0,0,10,0"/>
 
             <Button x:Name="ButtonUsun"
-                    Content="Usuń" Width="100"
+                    Content="Usuń"
+                    Width="100"
                     Margin="0,0,10,0" />
 
             <Button x:Name="ButtonZamknij"
-                    Content="Zamknij" Width="100"/>
+                    Content="Zamknij"
+                    Width="100"/>
 
         </StackPanel>
 
